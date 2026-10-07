@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gtext Alumni Community</title>
+  <meta name="description" content="Stay connected with the people, experiences, and opportunities that made your Gtext journey meaningful.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@16..72,500;16..72,600&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top">Gtext Alumni</a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="brand-line">Gtext Alumni</p>
+      <h1 id="hero-title">Once Gtext, Always Gtext.</h1>
+      <p class="lede">Stay connected with the people, experiences, and opportunities that made your Gtext journey meaningful.</p>
+      <a class="button" href="#register">Join the Gtext Alumni Community</a>
+    </section>
+
+    <section class="about" aria-labelledby="about-title">
+      <h2 id="about-title">Welcome to the Gtext Alumni Community</h2>
+      <p>The Gtext Alumni Community connects former Gtext employees, interns, associates, and team members across different locations and industries.</p>
+      <p>Whether you want to reconnect with old colleagues, explore business opportunities, share your expertise, or stay connected to the Gtext family, this community is for you.</p>
+    </section>
+
+    <section class="register" id="register" aria-labelledby="register-title">
+      <div class="register-intro" id="register-intro">
+        <h2 id="register-title">Alumni Registration</h2>
+        <p>Only the starred fields are required.</p>
+      </div>
+
+      <form id="alumni-form" class="alumni-form" method="post" action="https://collector.stephenakintayofoundation.org/v1/forms/0pabp9fXfE3p4fa1/submit" novalidate>
+        <div class="form-alert" id="form-alert" role="alert" hidden></div>
+
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <div class="field">
+            <label for="full_name">Full Name <span class="req" aria-hidden="true">*</span></label>
+            <input id="full_name" name="full_name" type="text" autocomplete="name" required maxlength="120">
+            <p class="field-error" id="full_name-error" hidden></p>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="email">Email Address <span class="req" aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="160">
+              <p class="field-error" id="email-error" hidden></p>
+            </div>
+            <div class="field">
+              <label for="phone">Phone Number / WhatsApp Number <span class="req" aria-hidden="true">*</span></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required maxlength="30">
+              <p class="field-error" id="phone-error" hidden></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="current_location">Current Location <span class="req" aria-hidden="true">*</span></label>
+            <select id="current_location" name="current_location" required>
+              <option value="">Select a location</option>
+              <option>Lagos</option>
+              <option>Abuja</option>
+              <option>Ibadan</option>
+              <option>Other Nigeria</option>
+              <option>Outside Nigeria</option>
+            </select>
+            <p class="field-error" id="current_location-error" hidden></p>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Your Gtext Journey</legend>
+
+          <div class="field">
+            <label for="gtext_entity">Company/Entity you worked with <span class="req" aria-hidden="true">*</span></label>
+            <select id="gtext_entity" name="gtext_entity" required>
+              <option value="">Select an entity</option>
+              <option>Gtext Homes</option>
+              <option>Gtext Land</option>
+              <option>Gtext &amp; Associates</option>
+              <option>Gtext Farms</option>
+              <option>Gtext Holdings</option>
+              <option>Gtext Suites</option>
+              <option>Other</option>
+            </select>
+            <p class="field-error" id="gtext_entity-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="role">Your Last/Most Recent Role at Gtext <span class="req" aria-hidden="true">*</span></label>
+            <input id="role" name="role" type="text" required maxlength="120">
+            <p class="field-error" id="role-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="department">Department</label>
+            <input id="department" name="department" type="text" maxlength="120">
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="year_joined">Year You Joined Gtext <span class="req" aria-hidden="true">*</span></label>
+              <input id="year_joined" name="year_joined" type="number" inputmode="numeric" min="1980" max="2027" required>
+              <p class="field-error" id="year_joined-error" hidden></p>
+            </div>
+            <div class="field">
+              <label for="year_left">Year You Left Gtext <span class="req" id="year_left_mark" aria-hidden="true">*</span></label>
+              <input id="year_left" name="year_left" type="number" inputmode="numeric" min="1980" max="2027" required aria-describedby="year_left_hint">
+              <p class="hint" id="year_left_hint">Leave blank if currently with Gtext.</p>
+              <p class="field-error" id="year_left-error" hidden></p>
+            </div>
+          </div>
+
+          <div class="check">
+            <input id="currently_with_gtext" name="currently_with_gtext" type="checkbox" value="Yes">
+            <label for="currently_with_gtext">I am currently with Gtext</label>
+          </div>
+
+          <div class="field">
+            <label for="employment_type">Employment Type</label>
+            <select id="employment_type" name="employment_type">
+              <option value="">Select if you wish</option>
+              <option>Full-time</option>
+              <option>Part-time</option>
+              <option>Intern</option>
+              <option>NYSC/Corps Member</option>
+              <option>Contract</option>
+              <option>Consultant</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>What You're Doing Now</legend>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="current_job">Current Job/Business</label>
+              <input id="current_job" name="current_job" type="text" maxlength="160">
+            </div>
+            <div class="field">
+              <label for="organisation">Current Organisation/Business Name</label>
+              <input id="organisation" name="organisation" type="text" maxlength="160">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="industry">Industry</label>
+            <input id="industry" name="industry" type="text" maxlength="120">
+          </div>
+
+          <div class="field">
+            <label for="linkedin">LinkedIn Profile <span class="optional">(Optional)</span></label>
+            <input id="linkedin" name="linkedin" type="url" inputmode="url" placeholder="https://" maxlength="300">
+            <p class="field-error" id="linkedin-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="social">Instagram / X / Website <span class="optional">(Optional)</span></label>
+            <input id="social" name="social" type="text" maxlength="300">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Community Interests</legend>
+
+          <div class="field">
+            <p class="choice-label" id="interests-label">What would you like to get from the Gtext Alumni Community?</p>
+            <div class="choices" role="group" aria-labelledby="interests-label">
+              <label class="check"><input type="checkbox" name="interests" value="Networking"> Networking</label>
+              <label class="check"><input type="checkbox" name="interests" value="Career opportunities"> Career opportunities</label>
+              <label class="check"><input type="checkbox" name="interests" value="Business opportunities"> Business opportunities</label>
+              <label class="check"><input type="checkbox" name="interests" value="Mentorship"> Mentorship</label>
+              <label class="check"><input type="checkbox" name="interests" value="Events &amp; reunions"> Events &amp; reunions</label>
+              <label class="check"><input type="checkbox" name="interests" value="Learning &amp; knowledge sharing"> Learning &amp; knowledge sharing</label>
+              <label class="check"><input type="checkbox" name="interests" value="Collaboration"> Collaboration</label>
+              <label class="check"><input type="checkbox" name="interests" value="Giving back / mentoring others"> Giving back / mentoring others</label>
+            </div>
+          </div>
+
+          <div class="field">
+            <p class="choice-label" id="mentoring-label">Would you be interested in mentoring other Gtext alumni?</p>
+            <div class="choices choices-inline" role="radiogroup" aria-labelledby="mentoring-label">
+              <label class="check"><input type="radio" name="mentoring" value="Yes"> Yes</label>
+              <label class="check"><input type="radio" name="mentoring" value="No"> No</label>
+              <label class="check"><input type="radio" name="mentoring" value="Maybe"> Maybe</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button class="button" type="submit" id="submit-button">Submit registration</button>
+      </form>
+
+      <div class="welcome" id="welcome" hidden>
+        <h2 id="welcome-title">Welcome to the Gtext Alumni Community!</h2>
+        <p>Your registration has been received.</p>
+        <p>Join the official Gtext Alumni WhatsApp Community to connect with fellow alumni, receive updates, and participate in upcoming events.</p>
+        <a class="button" id="whatsapp-link" href="https://chat.whatsapp.com/REPLACE_WITH_INVITE">Join the WhatsApp group</a>
+        <p class="note">Please save the Gtext Alumni contact and turn on notifications so you don't miss important updates.</p>
+      </div>
+    </section>
+
+    <section class="close" aria-labelledby="close-title">
+      <h2 id="close-title">You were part of the story. Now be part of the community.</h2>
+      <a class="button" href="#register">Join the Gtext Alumni Community</a>
+    </section>
+  </main>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

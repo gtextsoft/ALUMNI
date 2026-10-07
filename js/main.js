@@ -1,5 +1,5 @@
 const SUBMIT_URL = "https://collector.stephenakintayofoundation.org/v1/forms/0pabp9fXfE3p4fa1/submit";
-const WHATSAPP_URL = "https://chat.whatsapp.com/REPLACE_WITH_INVITE";
+const WHATSAPP_URL = "https://chat.whatsapp.com/CH7JY6HGPHt0odgFwbuk2H";
 const YEAR_MIN = 1980;
 const YEAR_MAX = 2027;
 

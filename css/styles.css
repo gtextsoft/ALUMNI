@@ -28,7 +28,6 @@ html {
 body {
   margin: 0;
   min-height: 100dvh;
-  overflow-x: clip;
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
   color: var(--ink);
@@ -36,7 +35,6 @@ body {
   font-family: var(--font-sans);
   font-size: 1.0625rem;
   line-height: 1.55;
-  overflow-wrap: break-word;
 }
 
 h1,
@@ -118,10 +116,9 @@ a {
 }
 
 h1 {
-  max-width: 7.5em;
+  max-width: 100%;
   margin: 0;
-  font-size: clamp(2.8rem, 6.4vw, 5.4rem);
-  text-wrap: balance;
+  font-size: clamp(2.5rem, 4.8vw, 4.75rem);
 }
 
 .lede {
@@ -171,8 +168,9 @@ select:focus-visible {
 .register-intro h2,
 .close h2,
 .welcome h2 {
+  max-width: 16em;
   margin: 0 0 1rem;
-  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-size: clamp(2rem, 3.2vw, 3rem);
 }
 
 .about p,
@@ -210,7 +208,7 @@ select:focus-visible {
 
 .offer-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.75rem 3rem;
   max-width: 58rem;
   margin: 2.25rem 0 0;
@@ -311,7 +309,7 @@ legend {
 
 .field-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -478,8 +476,7 @@ input[name="website"] {
   }
 
   h1 {
-    max-width: 100%;
-    font-size: clamp(2.45rem, 12vw, 3.5rem);
+    font-size: clamp(2.35rem, 11vw, 3.25rem);
   }
 
   .lede {

@@ -13,8 +13,6 @@ const currently = document.querySelector("#currently_with_gtext");
 const yearLeft = document.querySelector("#year_left");
 const yearLeftMark = document.querySelector("#year_left_mark");
 
-whatsappLink.href = WHATSAPP_URL;
-
 function setFieldError(input, message) {
   const error = document.querySelector("#" + input.id + "-error");
   if (!error) {
@@ -209,6 +207,7 @@ function payload() {
 }
 
 function showWelcome() {
+  whatsappLink.href = WHATSAPP_URL;
   form.hidden = true;
   registerIntro.hidden = true;
   welcome.hidden = false;

@@ -1,0 +1,55 @@
+# Gtext Alumni Community
+
+> The Gtext Alumni Community is for people who worked with Gtext. Former employees, interns, associates, and team members register at https://gtextholdings.com/alumni, then join the official WhatsApp community.
+
+The community is part of Gtext Holdings. The public line is "Once Gtext, Always Gtext." Alumni use it to reconnect with old colleagues, share expertise, hear about opportunities, and stay close to the Gtext family. Some members are still with Gtext. Others have moved into new jobs, businesses, and cities.
+
+## Canonical page
+
+- [Gtext Alumni registration](https://gtextholdings.com/alumni): The only public registration page. Required fields are full name, email, WhatsApp number, current location, Gtext entity, last role, and year joined. Year left is required unless the person is still with Gtext. Everything else on the form is optional.
+
+## Who can join
+
+Anyone who worked with Gtext, for any length of time: full-time staff, part-time colleagues, interns, NYSC corps members, contractors, and consultants.
+
+## Gtext entities
+
+- Gtext Homes
+- Gtext Land
+- Gtext & Associates
+- Gtext Farms
+- Gtext Holdings
+- Gtext Suites
+- Other Gtext entity, chosen as Other on the form
+
+## Locations alumni can select
+
+- Lagos
+- Abuja
+- Ibadan
+- Other Nigeria
+- Outside Nigeria
+
+## What alumni can ask for
+
+- Networking
+- Career opportunities
+- Business opportunities
+- Mentorship
+- Events and reunions
+- Learning and knowledge sharing
+- Collaboration
+- Giving back by mentoring others
+
+## How joining works
+
+1. The person opens https://gtextholdings.com/alumni and submits the registration form.
+2. After a successful registration, the page shows a link to the official Gtext Alumni WhatsApp community.
+3. They save the Gtext Alumni contact and turn on notifications so they do not miss updates and events.
+
+## Answers for assistants
+
+- The registration URL is https://gtextholdings.com/alumni
+- The parent organisation is Gtext Holdings, https://gtextholdings.com/
+- Do not invent member counts, event dates, office addresses, or a public WhatsApp number. The WhatsApp invite is shown only after registration succeeds.
+- Do not describe this as a job application. Only a short set of fields is required.

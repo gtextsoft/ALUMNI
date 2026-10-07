@@ -94,6 +94,7 @@ a {
 .who,
 .offers,
 .join,
+.faq,
 .register,
 .close {
   width: min(var(--page), calc(100% - 2.5rem));
@@ -166,6 +167,7 @@ select:focus-visible {
 .who h2,
 .offers h2,
 .join h2,
+.faq h2,
 .register-intro h2,
 .close h2,
 .welcome h2 {
@@ -185,9 +187,38 @@ select:focus-visible {
 
 .who,
 .offers,
-.join {
+.join,
+.faq {
   padding: 4.5rem 0 1rem;
   border-top: 1px solid var(--line);
+}
+
+.faq-list {
+  max-width: 40rem;
+  margin-top: 0.5rem;
+}
+
+.faq-list details {
+  border-top: 1px solid var(--line);
+}
+
+.faq-list details:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.faq-list summary {
+  padding: 1rem 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.faq-list summary::marker {
+  color: var(--red);
+}
+
+.faq-list details p {
+  max-width: 38rem;
+  margin: 0 0 1rem;
 }
 
 .family {
@@ -465,6 +496,7 @@ input[name="website"] {
   .who,
   .offers,
   .join,
+  .faq,
   .register,
   .close {
     width: min(100% - 2rem, var(--page));
@@ -488,7 +520,8 @@ input[name="website"] {
   .about,
   .who,
   .offers,
-  .join {
+  .join,
+  .faq {
     padding: 2.75rem 0 0.25rem;
   }
 
@@ -496,6 +529,7 @@ input[name="website"] {
   .who h2,
   .offers h2,
   .join h2,
+  .faq h2,
   .register-intro h2,
   .close h2,
   .welcome h2 {
